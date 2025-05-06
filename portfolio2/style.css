@@ -1,0 +1,158 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Navbar Styles */
+.navbar {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  color: #f39c12;
+}
+
+/* Section Styles */
+section {
+  padding: 100px 20px;
+  background: #f4f4f4;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+#section h1 {
+  font-size: 4rem;
+}
+
+
+#home {
+  background: #3498db;
+  color: white;
+  height: auto;
+  padding-top: 5px;
+  margin: 0;
+  background: url("https://cdn.wallpapersafari.com/63/25/6NxGsO.jpg");
+  position-repeate:no-repeat;
+}
+#home h1 {
+  font-size: 2.5rem;
+}
+#home h5 {
+  font-size: 2rem;
+}
+
+#about {
+  background: #2ecc71;
+  color: black;
+  padding-top: 20px;
+  text-align: left;
+  background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2021/07/CSS-background-gradient-featured.jpg");
+  position-repeate:no-repeate;
+  background-position-x: 100%;
+}
+
+.Skills-Section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  padding: 20px;
+}
+
+#about h2 {
+  text-align: left;
+}
+
+#projects {
+  background: #9b59b6;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: left;
+  background: url("https://images.hdqwalls.com/download/minimalist-mountains-night-4k-zy-1920x1080.jpg");
+  background-repeat:no-repeat;
+}
+
+#projects h2 {
+  text-align: center;
+}
+
+#contact {
+  background: #e67e22;
+  color: white;
+  padding: 20px;
+  background: url("https://cdn-media-2.freecodecamp.org/w1280/5f9c9cfc740569d1a4ca3543.jpg");
+  background-repeat: no-repeat;
+}
+
+#Certificate {
+  background: #c3c32c;
+  color: white;
+  padding-top: 20px;
+  background: url("https://cdn.wallpapersafari.com/35/39/x9rYhE.jpg");
+  background-repeat: no-repeat;
+}
+
+.Certificate-Section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+  flex-wrap: wrap;
+  color: darkblue;
+  background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2021/06/9.-Premium-Dark.png");
+  background-repeat: no-repeat;
+}
+
+#Certificate h2 {
+  text-align: center;
+  padding: 30px;
+
+}
+
+#Education {
+  background: #e91dc4;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: left;
+  background: url("https://wallpapercave.com/wp/z7tXPkz.jpg");
+  background-repeat: no-repeat;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: #fff;
+}
